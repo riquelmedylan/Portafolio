@@ -29,6 +29,6 @@ export const NavbarText = styled.h2`
      }
      @media (max-width: 950px) {
           letter-spacing: 0;
-          font-size: 14px;
+          font-size: 12px;
      }
 `;

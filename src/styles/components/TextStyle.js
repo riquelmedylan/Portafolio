@@ -28,7 +28,7 @@ export const TextStyleMainTitle = styled.h2`
      @media ${Device.sml} {
           letter-spacing: 6px;
      }
-     &:nth-last-child(3) {
+     &:nth-last-child(4) {
           font-size: 2em;
      }
 `;
