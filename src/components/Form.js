@@ -10,14 +10,23 @@ import { TextStyleLabel } from "../styles/components/TextStyle";
 export const Form = () => {
      const [email, setEmail] = useState();
      const [text, setText] = useState();
+     const [name, setName] = useState();
 
      const submitHandleSend = (e) => {
           e.preventDefault();
-          sendForm(email, text);
+          sendForm(email, text, name);
      };
 
      return (
           <form onSubmit={submitHandleSend}>
+               <TextStyleLabel htmlFor="name">Nombre</TextStyleLabel>
+               <InputForm
+                    onChange={(e) => setName(e.target.value)}
+                    name="name"
+                    type="text"
+                    placeholder="Jorge"
+                    required
+               />
                <TextStyleLabel htmlFor="email">
                     Correo Electronico
                </TextStyleLabel>
