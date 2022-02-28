@@ -24,7 +24,7 @@ export const Form = () => {
                <InputForm
                     onChange={(e) => setEmail(e.target.value)}
                     name="email"
-                    type="text"
+                    type="email"
                     placeholder="example@example.com"
                     required
                />

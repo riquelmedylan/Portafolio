@@ -27,8 +27,8 @@ export const NavbarText = styled.h2`
      &:hover {
           color: #e8ebee;
      }
-     @media (max-width: 768px) {
+     @media (max-width: 950px) {
           letter-spacing: 0;
-          font-size: 16px;
+          font-size: 14px;
      }
 `;
