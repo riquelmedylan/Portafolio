@@ -1,5 +1,5 @@
 export const sendForm = (email, text) => {
-     fetch("https://send-form-rad.herokuapp.com/send-email", {
+     fetch("https://send-form-rad.herokuapp.com/send-email/", {
           mode: "no-cors",
           method: "POST",
           headers: {
