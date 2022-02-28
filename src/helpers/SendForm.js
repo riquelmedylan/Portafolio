@@ -4,6 +4,9 @@ export const sendForm = (email, text) => {
           mode: "no-cors",
           headers: {
                "Access-Control-Allow-Origin": "*",
+               "Access-Control-Allow-Methods":
+                    "GET,PUT,POST,DELETE,PATCH,OPTIONS",
+               "Access-Control-Allow-Credentials": true,
                Accept: "application/json",
                "Content-Type": "application/json",
           },
