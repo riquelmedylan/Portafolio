@@ -1,5 +1,6 @@
 html {
      box-sizing: border-box;
+     scroll-behavior: smooth;
 }
 
 *,
@@ -13,6 +14,18 @@ html {
      display: grid;
      min-height: 100vh;
      grid-template-rows: auto 1fr auto;
+}
+body::-webkit-scrollbar {
+     width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+     background: linear-gradient(30deg, #131020 100%, #090323 0%);
+}
+
+body::-webkit-scrollbar-thumb {
+     background-color: rgb(18, 18, 19);
+     border-radius: 10px;
 }
 
 body {

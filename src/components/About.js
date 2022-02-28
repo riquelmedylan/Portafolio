@@ -7,7 +7,10 @@ import {
 export const About = () => {
      return (
           <>
-               <TextStyleMainTitle>Acerca de mí</TextStyleMainTitle>
+               <TextStyleMainTitle id="aboutMe">
+                    Acerca de mí
+               </TextStyleMainTitle>
+
                <TextStyleMainAboutChild>
                     Dylan es un programador autodidacta, apasionado del código y
                     desarrollador Front-end developer

@@ -1,5 +1,5 @@
 export const sendForm = (email, text) => {
-     fetch("http://localhost:3030/send-email", {
+     fetch("https://send-form-rad.herokuapp.com/send-email", {
           method: "POST",
           headers: {
                Accept: "application/json",

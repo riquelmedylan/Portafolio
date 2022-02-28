@@ -10,6 +10,7 @@ import { TextStyleLabel } from "../styles/components/TextStyle";
 export const Form = () => {
      const [email, setEmail] = useState();
      const [text, setText] = useState();
+
      const submitHandleSend = (e) => {
           e.preventDefault();
           sendForm(email, text);

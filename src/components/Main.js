@@ -17,12 +17,25 @@ export const Main = () => {
           <MainStyle>
                <MainContainerComponent>
                     <About />
-                    <TextStyleMainTitle>Proyectos</TextStyleMainTitle>
+
+                    <TextStyleMainTitle id="projects">
+                         Proyectos
+                    </TextStyleMainTitle>
+
                     <MainContainerGridProjects>
                          <GridCards />
                     </MainContainerGridProjects>
-                    <TextStyleMainTitle>Habilidades</TextStyleMainTitle>
+
+                    <TextStyleMainTitle id="skills">
+                         Habilidades
+                    </TextStyleMainTitle>
+
                     <SvgMain />
+
+                    <TextStyleMainTitle id="contact">
+                         Contacto
+                    </TextStyleMainTitle>
+
                     <Form />
                </MainContainerComponent>
           </MainStyle>
