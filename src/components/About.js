@@ -12,7 +12,7 @@ export const About = () => {
                </TextStyleMainTitle>
 
                <TextStyleMainAboutChild>
-                    Dylan es un programador autodidacta, apasionado del código y
+                    Soy un programador autodidacta, apasionado del código y
                     desarrollador Front-end developer
                </TextStyleMainAboutChild>
                <TextStyleMainAboutChild>
