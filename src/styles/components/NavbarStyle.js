@@ -12,6 +12,9 @@ export const NavbarStyle = styled.nav`
      opacity: 0.7;
      top: 0;
      width: 100%;
+     @media (max-width: 768px) {
+          padding: 0 0;
+     }
 `;
 
 export const NavbarText = styled.h2`
@@ -20,7 +23,12 @@ export const NavbarText = styled.h2`
      font-weight: 600;
      letter-spacing: 6px;
      text-transform: uppercase;
+
      &:hover {
           color: #e8ebee;
+     }
+     @media (max-width: 768px) {
+          letter-spacing: 0;
+          font-size: 16px;
      }
 `;
