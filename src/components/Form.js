@@ -20,9 +20,9 @@ export const Form = () => {
     e.preventDefault();
     const data = Array.from(new FormData(e.target));
     console.log(Object.fromEntries(data));
-    // sendForm(email, text, name);
-    // setIsDisabled(true);
-    // setShowSend(true);
+    sendForm(email, text, name);
+    setIsDisabled(true);
+    setShowSend(true);
   };
 
   return (
