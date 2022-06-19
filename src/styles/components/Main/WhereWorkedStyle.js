@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Device } from "../../Breakpoints";
+// import { Device } from "../../Breakpoints";
 
 export const WorkedContainer = styled.section`
   align-items: center;
