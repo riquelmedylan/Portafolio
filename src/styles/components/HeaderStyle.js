@@ -6,9 +6,9 @@ export const HeaderStyle = styled.header`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  height: 105vh;
   width: 100%;
-  @media (max-width: 1024px) {
+  @media (min-width: 1024px) {
      height: 112vh;
   }
 `;
