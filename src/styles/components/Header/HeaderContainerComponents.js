@@ -4,8 +4,10 @@ import { Device } from "../../Breakpoints";
 export const HeaderContainerComponents = styled.section`
   width: 16rem;
   @media ${Device.mls} {
-    padding: 50px 0 0 0;
     width: 22rem;
+  }
+  @media (max-width: 1200px) {
+    padding-top: 50px;
   }
 `;
 
