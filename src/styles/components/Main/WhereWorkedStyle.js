@@ -3,11 +3,10 @@ import styled from "styled-components";
 
 export const WorkedContainer = styled.section`
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   display: grid;
   grid-template-rows: repeat(2, 125px);
   grid-template-columns: 130px 250px;
-  width: 100%;
 `;
 
 export const RoundedWork = styled.div.attrs((props) => ({

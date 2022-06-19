@@ -2,10 +2,11 @@ import styled from "styled-components";
 import { Device } from "../../Breakpoints";
 
 export const HeaderContainerComponents = styled.section`
-     width: 16rem;
-     @media ${Device.mls} {
-          width: 22rem;
-     }
+  width: 16rem;
+  @media ${Device.mls} {
+    padding: 50px 0 0 0;
+    width: 22rem;
+  }
 `;
 
 export const HeaderContainerImgProfile = styled.picture`

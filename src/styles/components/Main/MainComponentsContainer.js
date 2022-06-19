@@ -16,6 +16,7 @@ export const MainContainerGridProjects = styled.section`
 
 export const MainContainerSvg = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 12px;
   width: 100%;

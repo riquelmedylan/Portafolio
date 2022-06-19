@@ -25,9 +25,11 @@ export const NavbarText = styled.h2`
   font-weight: 600;
   letter-spacing: 4px;
   text-transform: uppercase;
-
   &:hover {
     color: #e8ebee;
+  }
+  @media (max-width: 1200px) {
+    font-size: 18px;
   }
   @media (max-width: 950px) {
     letter-spacing: 0;
