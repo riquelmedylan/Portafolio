@@ -8,7 +8,7 @@ export const HeaderStyle = styled.header`
   justify-content: center;
   height: 100vh;
   width: 100%;
-  @media (min-width: 1024px) {
+  @media (max-width: 1024px) {
      height: 112vh;
   }
 `;
