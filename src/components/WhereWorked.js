@@ -11,7 +11,7 @@ export const WhereWorked = () => {
       <RoundedWork></RoundedWork>
       <TextWhereWorked
         company="Moby Digital"
-        date="2022-04-04/Actual"
+        date="2022-04/Actualidad"
         position="Front-End Jr"
       />
     </WorkedContainer>
