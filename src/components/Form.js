@@ -23,7 +23,7 @@ export const Form = () => {
     sendForm(email, text, name);
     setIsDisabled(true);
     setShowSend(true);
-    setTimeout(() => showSend(false), 3000);
+    setTimeout(() => setShowSend(false), 3000);
   };
 
   return (
